@@ -1,0 +1,6 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0099.jpg,Xe ô tô lớn ở giữa sát mép dưới ảnh (đang bật đèn pha),added,Xe hiện rõ kích thước lớn trong khung hình nhưng đang bị bỏ sót không có bounding box (missing annotation)
+2,frame_0099.jpg,Xe lấp ló ở mép trái ảnh (khoảng giữa trục dọc),added,Thấy rõ một phần thân xe và đèn pha đi vào khung hình nhưng chưa được khoanh
+3,frame_0099.jpg,Khung xe ở góc dưới bên phải,deleted,Khoanh nhầm vào vùng bóng đỏ phản chiếu của đèn xe trên mặt đường (không phải thực thể xe)
+4,frame_0099.jpg,Xe ô tô làn bên trái (phía trên xe dưới cùng),edited,Khung đang kéo dài xuống bao gồm cả vệt sáng phản chiếu trên mặt đường cần thu hẹp lên sát thân xe
+5,frame_0099.jpg,Xe ô tô ở góc dưới cùng bên trái,edited,Khung khoanh đang khá lỏng (rộng hơn hai mép thực tế) cần bóp hẹp lại cho khít với ranh giới thân xe
